@@ -33,13 +33,13 @@ public class BankService implements IBankService {
 
     @Override
     public void credit(Long accountId, double amount) {
-        Account account = this.list.get(accountId);
+        Account account = this.getAccount(accountId);
         account.setBalance(account.getBalance() + amount);
     }
 
     @Override
     public void debit(Long accountId, double amount) {
-        Account account = this.list.get(accountId);
+        Account account = this.getAccount(accountId);
         account.setBalance(account.getBalance() - amount);
     }
 }

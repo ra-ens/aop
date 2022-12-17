@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T14:33:14.461605100Z</date>
+  <millis>1671287594461</millis>
+  <nanos>605100</nanos>
+  <sequence>0</sequence>
+  <logger>aspects.Log</logger>
+  <level>INFO</level>
+  <class>aspects.Log</class>
+  <method>afterAllServiceMethods</method>
+  <thread>1</thread>
+  <message>Sat Dec 17 15:33:14 WEST 2022 : addAccount executed for 0ms</message>
+</record>
+<record>
+  <date>2022-12-17T14:33:17.473615200Z</date>
+  <millis>1671287597473</millis>
+  <nanos>615200</nanos>
+  <sequence>1</sequence>
+  <logger>aspects.Log</logger>
+  <level>INFO</level>
+  <class>aspects.Log</class>
+  <method>afterAllServiceMethods</method>
+  <thread>1</thread>
+  <message>Sat Dec 17 15:33:17 WEST 2022 : getAccount executed for 0ms</message>
+</record>

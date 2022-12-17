@@ -11,7 +11,6 @@ public class Application {
     }
 
     public void start() {
-        System.out.println("Application running...");
         IBankService bankService = new BankService();
         Scanner in = new Scanner(System.in);
         Account account;
@@ -55,12 +54,12 @@ public class Application {
                         System.out.print("\tAmount: ");
                         bankService.debit(id, in.nextDouble());
                         break;
-                    case 0:
-                        System.out.println("Quiting the application...");
                 }
             } catch (Exception e) {
-                System.out.println(e.getMessage());
+                System.out.println("ERROR: " + e.getMessage());
             }
         } while(opt != 0);
+
+        System.out.println("Quiting the application...");
     }
 }
