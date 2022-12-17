@@ -65,5 +65,5 @@ This aspect shows how to add an authentication layer to a Java application, the 
 ![image](https://user-images.githubusercontent.com/96893314/208248274-fe4b09c6-1699-4d6c-8120-0a7816adffda.png)
 ![image](https://user-images.githubusercontent.com/96893314/208248302-4de0d2a7-6345-4edb-8512-b7bb5cf624f1.png)
 
-#### PathAspect
+#### PatchAspect
 This aspect illustrates how to use AOP to manage business logic
